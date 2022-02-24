@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .clearfix::after{
@@ -22,32 +23,68 @@
 }
 /* header */
 .nav_col{
-    background-color: aqua;
-    float: left;
     height: 100px;
+    float: left;
     width: 50%;
+    position: relative;
 }
-
+.nav_col > img{
+    float: left;
+    margin: 40px 20px;
+} 
+.nav_col a{
+    text-decoration: none;
+    color: black;
+    margin: 40px;
+}
+.float_left{
+    float: left;
+}
+.float_right{
+    float: right;
+}
+#blue{
+    background-color: #0061ff;
+    color: white;
+    margin-top: 30px;
+    padding: 10px 30px;
+}
 /* main */
 .hero_container{
-    background-color: slateblue;
-    height: 1000px;
-    padding-top: 2rem;
+    background-color: #b4d0e7;
+    padding-top: 4rem;
 }
 .hero_content{
-    background-color: yellowgreen;
-    margin: 0 5% ;
+    margin: 0 5%;
     height: 100%;
 }
 .hero_title{
-    font-size: 8rem;
-    background-color: rgb(226, 43, 165);
-    height: 30%;
+    font-size: 6.3rem;
+    font-weight: 900;
 }
 .hero_text{
-    background-color: brown;
-    width: 30%;
-    height: 70%;
+    width: 25%;
+    float: left;
+}
+.hero_text > p{
+    font-size: 1.2rem;
+    margin-top: 30px;
+    font-weight: 600;
+}
+.margin_free{
+    margin-top: 40px;
+}
+.free_trial{
+    padding: 10px 20px;
+    width: 300px;
+    background-color: #0061ff;
+    text-decoration: none;
+    color: white;
+}
+.hero_content > img{
+    margin-top: 30px;
+    max-width: 70%;
+    float: right;
 }
 .piano{
     background-color: cornflowerblue;
