@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+/* header */
+.nav_col{
+    background-color: aqua;
+    float: left;
+    height: 100px;
+    width: 50%;
+}
+
+/* main */
+.hero_container{
+    background-color: slateblue;
+    height: 1000px;
+    padding-top: 2rem;
+}
+.hero_content{
+    background-color: yellowgreen;
+    margin: 0 5% ;
+    height: 100%;
+}
+.hero_title{
+    font-size: 8rem;
+    background-color: rgb(226, 43, 165);
+    height: 30%;
+}
+.hero_text{
+    background-color: brown;
+    width: 30%;
+    height: 70%;
+}
