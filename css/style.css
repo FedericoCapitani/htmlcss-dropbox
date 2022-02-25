@@ -10,6 +10,10 @@
     --strongblue: #0061ff;
     --greyblue: #b4d0e7;
 }
+
+a{
+    text-decoration: none;
+}
 /* utility */
 .clearfix::after{
     content: "";
