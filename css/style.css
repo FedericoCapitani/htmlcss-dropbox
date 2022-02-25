@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 :root{
@@ -39,7 +39,7 @@ a{
 }
 .nav_col > img{
     float: left;
-    margin: 36px 20px;
+    margin: 38px 20px;
 } 
 .nav_col a{
     text-decoration: none;
