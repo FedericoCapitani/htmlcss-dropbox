@@ -249,7 +249,22 @@ li:last-child{
     font-size: 3rem;
     padding: 40px 0;
 }
-
+.col30{
+    float: left;
+    margin-top: 5px;
+    width: 30%;
+}
+.col30 > img{
+    max-width: 100%;
+}
+.col30 > h3{
+    font-size: 2rem;
+    margin-bottom: 50px;
+}
+.col30 > p{
+    margin-bottom: 200px;
+    font-size: 1.4rem;
+}
 /* teams */
 .teams_area{
     padding: 0 10%;
