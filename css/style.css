@@ -93,7 +93,7 @@
 }
 .hero_text p:last-child{
     font-size: 100px;
-    padding-bottom: 40%;
+    padding-bottom: 50%;
 }
 .hero_content > img{
     margin-top: 30px;
@@ -103,7 +103,7 @@
 
 /* piano */
 .piano{
-    margin-top: 200px;
+    margin-top: 150px;
     background-color: cornflowerblue;
     height: 100px;
 }
