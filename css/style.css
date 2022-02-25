@@ -1,3 +1,4 @@
+/* common */
 *{
     margin: 0;
     padding: 0;
@@ -5,6 +6,11 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+:root{
+    --strongblue: #0061ff;
+    --greyblue: #b4d0e7;
+}
+/* utility */
 .clearfix::after{
     content: "";
     display: table;
@@ -30,7 +36,7 @@
 }
 .nav_col > img{
     float: left;
-    margin: 40px 20px;
+    margin: 36px 20px;
 } 
 .nav_col a{
     text-decoration: none;
@@ -44,15 +50,16 @@
     float: right;
 }
 #blue{
-    background-color: #0061ff;
+    background-color: var(--strongblue);
     color: white;
     margin-top: 30px;
     padding: 10px 30px;
 }
 /* main */
 .hero_container{
-    background-color: #b4d0e7;
+    background-color: var(--greyblue);
     padding-top: 4rem;
+    position: relative;
 }
 .hero_content{
     margin: 0 5%;
@@ -65,6 +72,7 @@
 .hero_text{
     width: 25%;
     float: left;
+    background-color: var(--greyblue);
 }
 .hero_text > p{
     font-size: 1.2rem;
@@ -77,16 +85,21 @@
 .free_trial{
     padding: 10px 20px;
     width: 300px;
-    background-color: #0061ff;
+    background-color: var(--strongblue);
     text-decoration: none;
     color: white;
+}
+.hero_text p:last-child{
+    font-size: 100px;
+    padding-bottom: 40%;
 }
 .hero_content > img{
     margin-top: 30px;
     max-width: 70%;
-    float: right;
+    position: absolute;
 }
 .piano{
+    margin-top: 200px;
     background-color: cornflowerblue;
     height: 100px;
 }
