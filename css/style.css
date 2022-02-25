@@ -56,6 +56,8 @@
     padding: 10px 30px;
 }
 /* main */
+
+/* jumbotron */
 .hero_container{
     background-color: var(--greyblue);
     padding-top: 4rem;
@@ -98,6 +100,8 @@
     max-width: 70%;
     position: absolute;
 }
+
+/* piano */
 .piano{
     margin-top: 200px;
     background-color: cornflowerblue;
@@ -130,10 +134,14 @@
     background-color: rgb(0, 255, 21);
     float: left;
 }
+
+/* operazioni */
 .operazioni{
     background-color: blue;
     height: 100px;
 }
+
+/* teams */
 .teams_area{
     padding: 0 10%;
     background-color: chocolate;
@@ -169,6 +177,7 @@
     float: left;
     background-color: rgba(0, 255, 255, 0.445);
 }
+/* prova */
 .prova_area{
     padding: 0 10%;
     background-color: blueviolet;
@@ -179,6 +188,8 @@
     width: 100%;
     background-color: black;
 }
+
+/* FAQ */
 .faq_text{
     background-color: aqua;
     padding: 5% 10%;
