@@ -268,18 +268,19 @@ li:last-child{
 /* teams */
 .teams_area{
     padding: 0 10%;
-    background-color: chocolate;
-    height: 300px;
 }
 .teams_title{
-    height: 70%;
-    background-color: aqua;
-    width: 50%;
+    width: 60%;
+    font-size: 3rem;
+    margin-bottom: 50px;
 }
 .teams_link{
-    background-color: red;
-    height: 30%;
     width: 50%;
+    margin-bottom: 50px;
+}
+.teams_link > a{
+    color: var(--strongblue);
+    text-decoration: underline;
 }
 .teams_content{
     background-color: palevioletred;
