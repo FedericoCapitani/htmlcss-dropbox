@@ -149,6 +149,19 @@ div.col33 > h4{
     font-size: 1.2rem;
     font-weight: 500;
 }
+.icon_row{
+    margin: 40px 0;
+    font-size: 1.2rem;
+    position: relative;
+}
+.icon_row i {
+    width: 10%;
+    float: left;
+}
+.icon_row span {
+    width: 90%;
+    float: left;
+}
 .marginTB > a{
     background-color: var(--strongblue);
     color: white;
