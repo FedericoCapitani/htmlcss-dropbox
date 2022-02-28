@@ -151,8 +151,7 @@ div.col33 > h4{
 .marginTB > a{
     background-color: var(--strongblue);
     color: white;
-    
-    padding: 10px 20px;
+    padding: 10px 55px;
     font-size: 1.2rem;
 }
 p > a{
@@ -190,6 +189,7 @@ li:last-child{
     border: 1px solid lightgray;
 }
 .col100_content > h4{
+    padding: 10px 0;
     text-align: center;
     border-bottom: 1px solid lightgray;
 }
