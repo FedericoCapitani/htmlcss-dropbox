@@ -10,6 +10,7 @@
     --strongblue: #0061ff;
     --greyblue: #b4d0e7;
     --textgrey: #85929d;
+    --lightgrey: #dedee0;
 }
 
 a{
@@ -388,14 +389,14 @@ li:last-child{
 .faq_text > h2{
     font-size: 3rem;
     padding-bottom: 50px;
-    border-bottom: 2px solid #dedee0;
+    border-bottom: 2px solid var(--lightgrey);
 }
 .section_text{
     float: left;
     width: 90%;
     padding: 40px 0;
     font-weight: 700;
-    border-bottom: 2px solid #dedee0;
+    border-bottom: 2px solid var(--lightgrey);
 }
 .section_icon{
     float: left;
@@ -404,7 +405,7 @@ li:last-child{
     text-align: center;
     line-height: 102px;
     vertical-align: middle;
-    border-bottom: 2px solid #dedee0;
+    border-bottom: 2px solid var(--lightgrey);
 }
 /* footer */
 .site_footer{
@@ -430,8 +431,8 @@ li:last-child{
     margin-top: 50px;
     padding: 50px 0;
     float: left;
-    color: #dedee0;
-    border-top: 2px solid #dedee0;
+    color: var(--lightgrey);
+    border-top: 2px solid var(--lightgrey)
 }
 #freccia{
     padding-left: 10px;
