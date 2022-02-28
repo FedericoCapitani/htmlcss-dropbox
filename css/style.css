@@ -101,10 +101,11 @@ a{
     text-decoration: none;
     color: white;
 }
-.hero_text p:last-child{
+a > p{
     font-size: 100px;
     padding-bottom: 50%;
     font-weight: 900;
+    color: black;
 }
 .hero_content > img{
     margin-top: 30px;
